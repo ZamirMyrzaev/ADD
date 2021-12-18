@@ -1,0 +1,85 @@
+.cont{
+    background-image: url(../../assets/bg_content.png);
+}
+
+.content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #154774;
+    
+    &_card{
+        margin: auto;
+        width: 20%;
+        height: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 3px;
+        box-shadow: 0 0 10px 0 #154774;
+        img {
+            width: 40%;
+            padding-left: 30%;
+        }
+        p {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+    &_card:hover{
+        transform: scale(1.2);
+        background-color: #fab51a;
+        transition: 0.3s linear;
+    }
+    &_services{
+        text-align: center;
+        :first-child{
+            font-size: 2rem;
+            font-weight: 600;
+            border: 3px solid #EC3B4D;
+            padding: 0 15px;
+            // background-color: #fab51a;
+            color: #EC3B4D;
+            // margin-bottom: 50px;
+        }
+        :last-child{
+            font-size: 1rem;
+            margin: 0 300px;
+            margin-top: 50px;
+        }
+        &_cards{
+            display: flex;
+            // text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+
+            &_main{
+                width: 30%;
+                height: 350px;
+                box-shadow: 0 0 10px 0 #154774;
+                margin: auto;
+                border-radius: 1%;
+                h2 {
+                    margin-left: 15px;
+                    color: #154774;
+                }
+                p {
+                    margin: 15px;
+                    text-align:initial;
+                    font-size: 1rem;
+                    // color: #fab51a;
+                }
+            }
+            &_main:hover {
+                transition: 1.3s ;
+                background-image: url(../../assets/bg_cards.jpg);
+                color: white;
+                background-size: cover;
+                h2 {
+                    color: white;
+                }
+            }
+        }
+    }
+}
