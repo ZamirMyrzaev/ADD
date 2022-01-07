@@ -1,17 +1,19 @@
 import React from 'react';
 import "./Content.css"
 import icon from "../../assets/icon.svg"
+import careers from "../../assets/careers.jpg"
 
 const Content = () => {
     return (
         <div className="cont">
-        <div className="content">
-            <div className="content_card">
-                <img src={icon} alt="icon" />
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Nemo ipsum eligendi aperiam quasi placeat, repellat atque amet recusandae! 
-                </p>
+        <div className='careers'>
+            <p>Карьера</p>
+            <div className='careers_image'>
+                <div className='careers_image_show'></div>
+                <img src={careers} alt="careers" />
             </div>
+        </div>
+        <div className="content">
             <div className="content_card">
                 <img src={icon} alt="icon" />
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 

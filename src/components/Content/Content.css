@@ -1,5 +1,34 @@
-.cont {
-  background-image: url(../../assets/bg_content.png);
+.careers {
+  width: 70%;
+  margin: auto;
+}
+
+.careers p {
+  font-size: 3rem;
+  color: #154774;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.careers_image {
+  width: 800px;
+  height: 350px;
+}
+
+.careers_image_show {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.careers_image img {
+  width: 70%;
+  height: auto;
+  position: relative;
+  top: -25%;
 }
 
 .content {
@@ -38,7 +67,6 @@
 .content_card:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  background-color: #fab51a;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
 }
@@ -92,7 +120,7 @@
 .content_services_cards_main:hover {
   -webkit-transition: 1.3s;
   transition: 1.3s;
-  background-image: url(../../assets/bg_cards.jpg);
+  background-color: #154774;
   color: white;
   background-size: cover;
 }
