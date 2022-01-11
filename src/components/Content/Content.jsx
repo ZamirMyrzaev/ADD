@@ -9,12 +9,21 @@ const Content = () => {
         <div className='careers'>
             <p>Карьера</p>
             <div className='careers_image'>
-                <div className='careers_image_show'></div>
+            <div className="careers_image_card">
+                {/* <img src={icon} alt="icon" /> */}
+                <ol>
+                    <ul>1 Стабильная работа</ul>
+                    <ul>2 Дружный коллектив</ul>
+                    <ul>3 Комфортные условия труда</ul>
+                    <ul>4 Возможность обучения и участия в различных тренингах и обучающих программах</ul>
+                    <ul>5 Карьерный рост</ul>
+                </ol>
+            </div>
                 <img src={careers} alt="careers" />
             </div>
         </div>
         <div className="content">
-            <div className="content_card">
+            {/* <div className="content_card">
                 <img src={icon} alt="icon" />
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Nemo ipsum eligendi aperiam quasi placeat, repellat atque amet recusandae! 
@@ -31,7 +40,7 @@ const Content = () => {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Nemo ipsum eligendi aperiam quasi placeat, repellat atque amet recusandae! 
                 </p>
-            </div>
+            </div> */}
             <div className="content_services">
                 <span>Наши услуги</span>
                 <p> Мы предлагаем полный спектр современных IT-услуг – от стратегического консалтинга в сфере технологий и оптимизации 
