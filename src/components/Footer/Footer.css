@@ -1,11 +1,33 @@
 .footer {
-  background-color: #010230;
+  background-color: #1a3663;
   width: 100%;
-  height: 250px;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .footer_contacts {
-  margin-left: 10%;
+  margin-left: 13%;
   color: white;
+}
+
+.footer_contacts p {
+  margin-left: 2%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+
+.footer_contacts_phone {
+  margin: .5rem;
+}
+
+.footer_contacts_phone img {
+  width: 3%;
+}
+
+.footer_contacts_phone span {
+  margin-left: 1%;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=Footer.css.map */

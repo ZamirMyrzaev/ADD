@@ -1,84 +1,104 @@
 import React from 'react';
 import "./Content.css"
-import icon from "../../assets/icon.svg"
-import careers from "../../assets/careers.jpg"
+import img_main from '../../assets/content.png'
+// import logo1 from '../../assets/Logo.svg'
+import arch from '../../assets/icon/arch.png'
+import front from '../../assets/icon/front.png'
+import backend from '../../assets/icon/backend.png'
+import design from '../../assets/icon/design.png'
+import manager from '../../assets/icon/manager.png'
+import analyst from '../../assets/icon/analyst.png'
+
 
 const Content = () => {
     return (
-        <div className="cont">
-        <div className='careers'>
-            <p>Карьера</p>
-            <div className='careers_image'>
-            <div className="careers_image_card">
-                {/* <img src={icon} alt="icon" /> */}
-                <ol>
-                    <ul>1 Стабильная работа</ul>
-                    <ul>2 Дружный коллектив</ul>
-                    <ul>3 Комфортные условия труда</ul>
-                    <ul>4 Возможность обучения и участия в различных тренингах и обучающих программах</ul>
-                    <ul>5 Карьерный рост</ul>
-                </ol>
+        <div>
+            <div className="content">
+                <div className="content_services">
+                    <div className="content_services_main1">
+                        <img src={img_main} alt="content" />
+                        {/* <img src={logo1} alt="logo" /> */}
+                    </div>
+                    <div className="content_services_main2">
+                    <p>Предоставляем весь спектр услуг <br/>по созданию информационных систем</p>
+                    <ul>
+                        <li>обследование объекта автоматизации</li>
+                        <li>формирование требований</li>
+                        <li>проведение бизнес и системного анализа</li>
+                        <li>разработка архитектуры</li>
+                        <li>реализация информационной системы и запуск в промышленную эксплуатацию</li>
+                    </ul>
+                    <button>Связаться с нами</button>
+                    </div>
+                </div>
+                <div className="content_services1">
+                   
+                    <div className="content_services1_block1">
+                    <p>Web Разработка</p>
+                    <ul>
+                        <li>Сайт-визитка</li>
+                        <li>Корпоративный информационный web-сайт</li>
+                        <li>Корпоративный имиджевый web-сайт</li>
+                        <li>Интернет-магазин</li>
+                        <li>Информационный сайт</li>
+                        <li>Игровой портал</li>
+                        <li>Персональный проект</li>
+                    </ul>
+                    </div>
+                
+                <div className="content_services1_block2">
+                    <p>Разработка приложений и ПО</p>
+                    <ul>
+                        <li>На платформах Android</li>
+                        <li>Нa платформах IOS</li>
+                        <li>Информационые cистемы </li>
+                        <li>ERP системы</li>
+                        <li>CRM системы</li>
+                        <li>Персональные системы</li>
+                    </ul>
+                </div>
+                </div>
             </div>
-                <img src={careers} alt="careers" />
-            </div>
-        </div>
-        <div className="content">
-            {/* <div className="content_card">
-                <img src={icon} alt="icon" />
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Nemo ipsum eligendi aperiam quasi placeat, repellat atque amet recusandae! 
-                </p>
-            </div>
-            <div className="content_card">
-                <img src={icon} alt="icon" />
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Nemo ipsum eligendi aperiam quasi placeat, repellat atque amet recusandae! 
-                </p>
-            </div>
-            <div className="content_card">
-                <img src={icon} alt="icon" />
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Nemo ipsum eligendi aperiam quasi placeat, repellat atque amet recusandae! 
-                </p>
-            </div> */}
-            <div className="content_services">
-                <span>Наши услуги</span>
-                <p> Мы предлагаем полный спектр современных IT-услуг – от стратегического консалтинга в сфере технологий и оптимизации 
-                    внутренних процессов до закупки необходимого оборудования и проведения обучения.
-                    Мы – команда высококвалифицированных и целеустремленных разработчиков программного обеспечения, 
-                    которые умеют проектировать, внедрять и поддерживать новые и существующие IT-решения для мобильных и веб-систем. 
-                    Наши эксперты разрабатывают безопасные и эффективные решения, имеющие высокий уровень качества.
-                </p>
-            </div>
-            <div className="content_services_cards">
-                <div className="content_services_cards_main">
-                        <h2>IT-консалтинг</h2> 
-                    <p>
+            <div className='team'>
+                <div className='team_head'>
+                    <p>Разносторонняя и высоко квалифицированная команда специалистов в своих сферах</p>
+                </div>
+                <div className='team_about'>
+                    <div className='team_about_prof'>
+                        <img src={arch} alt="architect icon" />
+                        <p>Архитектор</p>
+                    </div>
+                    <div className='team_about_prof'>
+                        <img src={backend} alt="architect icon" />
+                        <p>Back-end Разработчики </p>
+                    </div>
+                    <div className='team_about_prof'>
+                        <img src={front} alt="frontend icon" />
+                        <p>Front-end разработчики</p>
+                    </div>
+                </div>
+                <div className='team_about'>
+                    <div className='team_about_prof'>
+                        <img src={design} alt="architect icon" />
+                        <p>Дизайнер</p>
+                    </div>
+                    <div className='team_about_prof'>
+                        <img src={manager} alt="architect icon" />
+                        <p>Проектный менеджер</p>
+                    </div>
+                    <div className='team_about_prof'>
+                        <img src={analyst} alt="frontend icon" />
+                        <p>Бизнес аналитик</p>
+                    </div>
+                </div>
+                <div className="content_services_text">
+                    <span>
                         Мы станем вашим партнером в области анализа, консультирования и управления инновациями в бизнесе, 
                         в котором внедрение цифровых технологий имеет решающее значение. Наши специалисты обладают большим 
                         опытом в проведении оперативных и масштабных изменений с помощью цифровых технологий.
-                    </p>
-                </div>
-                <div className="content_services_cards_main">
-                    <h2>Разработка ПО</h2> 
-                    <p>
-                        Мы занимаемся разработкой программного обеспечения и предлагаем полный пакет услуг по разработке, 
-                        внедрению и сопровождению программных решений различной сложности и масштаба. Знания и опыт наших 
-                        ведущих IT-специалистов позволяют «ITS-Technologies» качественно выполнять полный цикл работ – от 
-                        анализа технологической ситуации в вашей организации и написания технического задания до полномасштабной. 
-                    </p>
-                </div>
-                <div className="content_services_cards_main">
-                    <h2>Поставка оборудования</h2> 
-                    <p>
-                        Поставка оборудования ведущих компаний мира - компьютерной техники, телекоммуникационного, периферийного 
-                        и сетевого оборудования, инфраструктурного программного обеспечения, расходных материалов и товаров для 
-                        интерактивных развлечений. При необходимости можем организовать круглосуточное гарантийное и послегарантийное 
-                        сервисное обслуживание.
-                    </p>
+                    </span>
                 </div>
             </div>
-        </div>
         </div>
     );
 };

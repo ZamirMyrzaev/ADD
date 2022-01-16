@@ -13,15 +13,15 @@ const Header = () => {
             <div className="header_main">
                 <img src={logo} alt="logo" />
                 <div className='header_main_right'>
-                <span>О компании</span>
-                <span>Карьера</span>
-                <span>Контакты</span>
-                <span>Команда</span>             
+                <span>О нас</span>
+                <span>Профайл</span>
+                <span>Команда</span>
+                <span>Контакты</span>             
                 </div>
                 <div className="header_main_line"></div>
             </div>
             <MainCarousel/>
-            <div className="header_footer"></div>
+            {/* <div className="header_footer"></div> */}
         </div>
     );
 };
