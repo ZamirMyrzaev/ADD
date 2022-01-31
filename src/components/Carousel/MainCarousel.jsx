@@ -7,7 +7,7 @@ import img3 from '../../assets/carousel/third2.jpg'
 
 const MainCarousel = () => {
     return (
-        <div className='carousel'>
+        <div id='about' className='carousel'>
           <Carousel variant="dark">
           <Carousel.Item>
             <img className='carousel_img1' src={img1} />

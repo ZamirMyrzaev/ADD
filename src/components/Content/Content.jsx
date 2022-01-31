@@ -12,8 +12,8 @@ import analyst from '../../assets/icon/analyst.png'
 
 const Content = () => {
     return (
-        <div>
-            <div className="content">
+        <>
+            <div id='profile' className="content">
                 <div className="content_services">
                     <div className="content_services_main1">
                         <img src={img_main} alt="content" />
@@ -28,7 +28,7 @@ const Content = () => {
                         <li>разработка архитектуры</li>
                         <li>реализация информационной системы и запуск в промышленную эксплуатацию</li>
                     </ul>
-                    <button>Связаться с нами</button>
+                    <button> <a href="#contact"> Связаться с нами </a></button>
                     </div>
                 </div>
                 <div className="content_services1">
@@ -54,7 +54,7 @@ const Content = () => {
                         <li>Информационые cистемы </li>
                         <li>ERP системы</li>
                         <li>CRM системы</li>
-                        <li>Персональные системы</li>
+                        <li id='team'>Персональные системы</li>
                     </ul>
                 </div>
                 </div>
@@ -99,7 +99,7 @@ const Content = () => {
                     </span>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

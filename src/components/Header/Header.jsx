@@ -13,10 +13,10 @@ const Header = () => {
             <div className="header_main">
                 <img src={logo} alt="logo" />
                 <div className='header_main_right'>
-                <span>О нас</span>
-                <span>Профайл</span>
-                <span>Команда</span>
-                <span>Контакты</span>             
+                <a href="#about">О нас</a>
+                <a href="#profile">Профайл</a>
+                <a href="#team">Команда</a>
+                <a href="#contact">Контакты</a>             
                 </div>
                 <div className="header_main_line"></div>
             </div>

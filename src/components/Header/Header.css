@@ -51,13 +51,14 @@ body {
   background-size: cover;
 }
 
-.header_main_right span {
+.header_main_right a {
   color: white;
   position: relative;
   left: 55%;
   bottom: 4.2rem;
   font-size: 1.2rem;
   margin: 2rem;
+  text-decoration: none;
 }
 
 .header_main_line {

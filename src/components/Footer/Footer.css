@@ -1,7 +1,8 @@
 .footer {
   background-color: #1a3663;
+  position: relative;
   width: 100%;
-  height: auto;
+  height: 25rem;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -29,5 +30,13 @@
 .footer_contacts_phone span {
   margin-left: 1%;
   font-size: 1.1rem;
+}
+
+.map {
+  width: 25rem;
+  height: 15rem;
+  position: absolute;
+  left: 60%;
+  top: 10%;
 }
 /*# sourceMappingURL=Footer.css.map */

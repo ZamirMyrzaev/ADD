@@ -1,7 +1,8 @@
 .footer{
     background-color: #1a3663;
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 25rem;
     padding-top: 2%;
     padding-bottom: 2%;
     &_contacts{
@@ -24,4 +25,11 @@
             }
         }
     }
+}
+.map{
+    width: 25rem;
+    height: 15rem;
+    position: absolute;
+    left: 60%;
+    top: 10%;
 }
